@@ -10,11 +10,11 @@ function setup() {
 
   btn_red = createButton("red");
   btn_red.position(100, 50);
-  btn_red.mousepressed(red_bg);
+  btn_red.mousePressed(red_bg);
 
   btn_green = createButton("green");
   btn_green.position(250, 50);
-  btn_green.mousepressed(green_bg);
+  btn_green.mousePressed(green_bg);
 }
 
 function draw() {
